@@ -1,0 +1,55 @@
+/*Cor de fundo da página*/
+body {
+   background-color: #f0f0f0;
+   font-family: Arial, helvetica, sans-serif;
+   color: #333;
+   margin: 40px;
+   line-height: 1.8;
+}
+/*título principal*/
+h1 {
+   color: #0d47a1;
+   text-align: center;
+   font-size: 40px;
+   border-bottom: 3px solid #0d47a1;
+    padding-bottom: 10px;
+}
+/*subtítulo*/
+h2 {
+   color: #1565c0;
+   margin-top: 35px;
+}
+/*parágrafo*/
+p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: justify;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*imagem*/
+.imagem {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+/*rodapé*/
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+    border-top: 4px solid #edeff4;
+}
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+footer p {
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
