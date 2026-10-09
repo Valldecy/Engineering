@@ -1,6 +1,57 @@
- body {
-     background-color: #98aac5;
-     font-family: Arial, sans-serif;
-     margin: 20px;
-     color: #100404;
- }
+/* Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.7;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #1f3a5f;
+    margin-bottom: 30px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* Todas as imagens do site */
+.imagem {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+    margin: 20px auto 30px;
+}
+
+/* Ajuste para celulares */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .imagem {
+        max-height: 250px;
+    }
+}
